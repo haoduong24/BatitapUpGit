@@ -1,0 +1,461 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\Hao2406\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\controllers\\ketquascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\controllers\\ketquascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\controllers\\sinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\controllers\\sinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\ketquas\\dvhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\ketquas\\dvhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\ketquas\\dvhdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\ketquas\\dvhdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\ketquas\\dvhdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\ketquas\\dvhdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\ketquas\\dvhedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\ketquas\\dvhedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\ketquas\\dvhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\ketquas\\dvhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\controllers\\monhocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\controllers\\monhocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\khoas\\dvhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\khoas\\dvhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\khoas\\dvhdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\khoas\\dvhdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\khoas\\dvhdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\khoas\\dvhdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\khoas\\dvhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\khoas\\dvhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\khoas\\dvhedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\khoas\\dvhedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\monhocs\\dvhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\monhocs\\dvhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\monhocs\\dvhdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\monhocs\\dvhdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\monhocs\\dvhdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\monhocs\\dvhdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\monhocs\\dvhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\monhocs\\dvhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\monhocs\\dvhedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\monhocs\\dvhedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\sinhviens\\dvhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\sinhviens\\dvhcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\sinhviens\\dvhdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\sinhviens\\dvhdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\sinhviens\\dvhdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\sinhviens\\dvhdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\sinhviens\\dvhedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\sinhviens\\dvhedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\views\\sinhviens\\dvhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\views\\sinhviens\\dvhindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\controllers\\khoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\controllers\\khoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|c:\\users\\admin\\downloads\\hao2406\\hao2406\\models\\haomodel22109.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{69EBEEE3-B2A4-43FA-A2A3-7439D66D8F13}|Hao2406\\Hao2406.csproj|solutionrelative:hao2406\\models\\haomodel22109.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DvhCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\KetQuas\\DvhCreate.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\KetQuas\\DvhCreate.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\KetQuas\\DvhCreate.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\KetQuas\\DvhCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:11:40.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DvhDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\KetQuas\\DvhDelete.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\KetQuas\\DvhDelete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\KetQuas\\DvhDelete.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\KetQuas\\DvhDelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:11:36.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DvhDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\KetQuas\\DvhDetails.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\KetQuas\\DvhDetails.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\KetQuas\\DvhDetails.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\KetQuas\\DvhDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:11:32.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DvhEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\KetQuas\\DvhEdit.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\KetQuas\\DvhEdit.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\KetQuas\\DvhEdit.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\KetQuas\\DvhEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:11:29.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DvhIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\KetQuas\\DvhIndex.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\KetQuas\\DvhIndex.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\KetQuas\\DvhIndex.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\KetQuas\\DvhIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:11:11.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KetQuasController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Controllers\\KetQuasController.cs",
+              "RelativeDocumentMoniker": "Hao2406\\Controllers\\KetQuasController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Controllers\\KetQuasController.cs",
+              "RelativeToolTip": "Hao2406\\Controllers\\KetQuasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T04:08:51.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DvhDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\SinhViens\\DvhDelete.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\SinhViens\\DvhDelete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\SinhViens\\DvhDelete.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\SinhViens\\DvhDelete.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAFQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:54:48.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:55:33.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DvhDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Khoas\\DvhDelete.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\Khoas\\DvhDelete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Khoas\\DvhDelete.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\Khoas\\DvhDelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:04:12.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SinhViensController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Controllers\\SinhViensController.cs",
+              "RelativeDocumentMoniker": "Hao2406\\Controllers\\SinhViensController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Controllers\\SinhViensController.cs",
+              "RelativeToolTip": "Hao2406\\Controllers\\SinhViensController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwHAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T03:52:26.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DvhCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\SinhViens\\DvhCreate.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\SinhViens\\DvhCreate.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\SinhViens\\DvhCreate.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\SinhViens\\DvhCreate.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAGQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:54:37.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DvhDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Khoas\\DvhDetails.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\Khoas\\DvhDetails.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Khoas\\DvhDetails.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\Khoas\\DvhDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:04:08.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DvhCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Khoas\\DvhCreate.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\Khoas\\DvhCreate.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Khoas\\DvhCreate.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\Khoas\\DvhCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:04:15.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DvhCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\MonHocs\\DvhCreate.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\MonHocs\\DvhCreate.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\MonHocs\\DvhCreate.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\MonHocs\\DvhCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:00:46.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DvhIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Khoas\\DvhIndex.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\Khoas\\DvhIndex.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Khoas\\DvhIndex.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\Khoas\\DvhIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:03:43.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DvhEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Khoas\\DvhEdit.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\Khoas\\DvhEdit.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\Khoas\\DvhEdit.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\Khoas\\DvhEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:04:03.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MonHocsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Controllers\\MonHocsController.cs",
+              "RelativeDocumentMoniker": "Hao2406\\Controllers\\MonHocsController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Controllers\\MonHocsController.cs",
+              "RelativeToolTip": "Hao2406\\Controllers\\MonHocsController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAqwGQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T03:59:51.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DvhIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\MonHocs\\DvhIndex.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\MonHocs\\DvhIndex.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\MonHocs\\DvhIndex.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\MonHocs\\DvhIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:00:15.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DvhEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\MonHocs\\DvhEdit.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\MonHocs\\DvhEdit.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\MonHocs\\DvhEdit.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\MonHocs\\DvhEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:00:33.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DvhDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\MonHocs\\DvhDetails.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\MonHocs\\DvhDetails.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\MonHocs\\DvhDetails.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\MonHocs\\DvhDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:00:39.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DvhDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\MonHocs\\DvhDelete.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\MonHocs\\DvhDelete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\MonHocs\\DvhDelete.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\MonHocs\\DvhDelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T04:00:43.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DvhDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\SinhViens\\DvhDetails.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\SinhViens\\DvhDetails.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\SinhViens\\DvhDetails.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\SinhViens\\DvhDetails.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAE8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:54:52.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DvhEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\SinhViens\\DvhEdit.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\SinhViens\\DvhEdit.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\SinhViens\\DvhEdit.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\SinhViens\\DvhEdit.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAF4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:53:58.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DvhIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\SinhViens\\DvhIndex.cshtml",
+              "RelativeDocumentMoniker": "Hao2406\\Views\\SinhViens\\DvhIndex.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Views\\SinhViens\\DvhIndex.cshtml",
+              "RelativeToolTip": "Hao2406\\Views\\SinhViens\\DvhIndex.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:54:04.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KhoasController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Controllers\\KhoasController.cs",
+              "RelativeDocumentMoniker": "Hao2406\\Controllers\\KhoasController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Controllers\\KhoasController.cs",
+              "RelativeToolTip": "Hao2406\\Controllers\\KhoasController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAHIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T04:01:57.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HaoModel22109.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Models\\HaoModel22109.edmx",
+              "RelativeDocumentMoniker": "Hao2406\\Models\\HaoModel22109.edmx",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Hao2406\\Hao2406\\Models\\HaoModel22109.edmx [Diagram1]",
+              "RelativeToolTip": "Hao2406\\Models\\HaoModel22109.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-24T03:50:21.83Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
