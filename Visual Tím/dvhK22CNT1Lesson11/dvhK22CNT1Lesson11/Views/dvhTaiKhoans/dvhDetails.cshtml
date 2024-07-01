@@ -1,0 +1,75 @@
+﻿@model TvcK22CNT1Lesson11.Models.dvh0107Entities1
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_dvhLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>dvhTaiKhoan</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.dvhUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dvhUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dvhPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dvhPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dvhFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dvhFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dvhAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dvhAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dvhEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dvhEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dvhPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dvhPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dvhStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dvhStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.dvhId }) |
+    @Html.ActionLink("Back to List", "dvhIndex")
+</p>

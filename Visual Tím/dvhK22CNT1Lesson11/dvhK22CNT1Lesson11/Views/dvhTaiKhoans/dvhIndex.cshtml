@@ -1,0 +1,70 @@
+﻿@model IEnumerable<dvhK22CNT1Lesson11.Models.dvhTaiKhoan>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_dvhLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.dvhUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dvhPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dvhFullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dvhAge)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dvhEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dvhPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dvhStatus)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.dvhUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dvhPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dvhFullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dvhAge)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dvhEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dvhPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dvhStatus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.dvhId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.dvhId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.dvhId })
+        </td>
+    </tr>
+}
+
+</table>
