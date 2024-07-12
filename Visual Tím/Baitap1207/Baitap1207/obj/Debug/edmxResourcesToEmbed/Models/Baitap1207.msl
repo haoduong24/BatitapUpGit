@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DuongVanHao_2210900099ModelStoreContainer" CdmEntityContainer="DuongVanHao_2210900099Entities">
+    <EntitySetMapping Name="DuongVanHao_SACH">
+      <EntityTypeMapping TypeName="DuongVanHao_2210900099Model.DuongVanHao_SACH">
+        <MappingFragment StoreEntitySet="DuongVanHao_SACH">
+          <ScalarProperty Name="DuongVanHao_MaSach" ColumnName="DuongVanHao_MaSach" />
+          <ScalarProperty Name="DuongVanHao_TenSach" ColumnName="DuongVanHao_TenSach" />
+          <ScalarProperty Name="DuongVanHao_SoTrang" ColumnName="DuongVanHao_SoTrang" />
+          <ScalarProperty Name="DuongVanHao_NamXB" ColumnName="DuongVanHao_NamXB" />
+          <ScalarProperty Name="DuongVanHao_MaTG" ColumnName="DuongVanHao_MaTG" />
+          <ScalarProperty Name="DuongVanHao_TrangThai" ColumnName="DuongVanHao_TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DuongVanHao_TACGIA">
+      <EntityTypeMapping TypeName="DuongVanHao_2210900099Model.DuongVanHao_TACGIA">
+        <MappingFragment StoreEntitySet="DuongVanHao_TACGIA">
+          <ScalarProperty Name="DuongVanHao_MaTG" ColumnName="DuongVanHao_MaTG" />
+          <ScalarProperty Name="DuongVanHao_TenTacGia" ColumnName="DuongVanHao_TenTacGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

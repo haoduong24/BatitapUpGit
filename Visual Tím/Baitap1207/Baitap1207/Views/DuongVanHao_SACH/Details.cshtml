@@ -1,0 +1,58 @@
+﻿@model Baitap1207.Models.DuongVanHao_SACH
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DuongVanHao_SACH</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DuongVanHao_TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DuongVanHao_TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DuongVanHao_SoTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DuongVanHao_SoTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DuongVanHao_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DuongVanHao_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DuongVanHao_TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DuongVanHao_TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DuongVanHao_TACGIA.DuongVanHao_TenTacGia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DuongVanHao_TACGIA.DuongVanHao_TenTacGia)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DuongVanHao_MaSach }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

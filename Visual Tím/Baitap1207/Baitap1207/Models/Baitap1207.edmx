@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DuongVanHao_2210900099Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DuongVanHao_SACH">
+          <Key>
+            <PropertyRef Name="DuongVanHao_MaSach" />
+          </Key>
+          <Property Name="DuongVanHao_MaSach" Type="int" Nullable="false" />
+          <Property Name="DuongVanHao_TenSach" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="DuongVanHao_SoTrang" Type="int" />
+          <Property Name="DuongVanHao_NamXB" Type="date" />
+          <Property Name="DuongVanHao_MaTG" Type="int" />
+          <Property Name="DuongVanHao_TrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="DuongVanHao_TACGIA">
+          <Key>
+            <PropertyRef Name="DuongVanHao_MaTG" />
+          </Key>
+          <Property Name="DuongVanHao_MaTG" Type="int" Nullable="false" />
+          <Property Name="DuongVanHao_TenTacGia" Type="varchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__DuongVanH__Duong__38996AB5">
+          <End Role="DuongVanHao_TACGIA" Type="Self.DuongVanHao_TACGIA" Multiplicity="0..1" />
+          <End Role="DuongVanHao_SACH" Type="Self.DuongVanHao_SACH" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DuongVanHao_TACGIA">
+              <PropertyRef Name="DuongVanHao_MaTG" />
+            </Principal>
+            <Dependent Role="DuongVanHao_SACH">
+              <PropertyRef Name="DuongVanHao_MaTG" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DuongVanHao_2210900099ModelStoreContainer">
+          <EntitySet Name="DuongVanHao_SACH" EntityType="Self.DuongVanHao_SACH" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DuongVanHao_TACGIA" EntityType="Self.DuongVanHao_TACGIA" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__DuongVanH__Duong__38996AB5" Association="Self.FK__DuongVanH__Duong__38996AB5">
+            <End Role="DuongVanHao_TACGIA" EntitySet="DuongVanHao_TACGIA" />
+            <End Role="DuongVanHao_SACH" EntitySet="DuongVanHao_SACH" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DuongVanHao_2210900099Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DuongVanHao_SACH">
+          <Key>
+            <PropertyRef Name="DuongVanHao_MaSach" />
+          </Key>
+          <Property Name="DuongVanHao_MaSach" Type="Int32" Nullable="false" />
+          <Property Name="DuongVanHao_TenSach" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DuongVanHao_SoTrang" Type="Int32" />
+          <Property Name="DuongVanHao_NamXB" Type="DateTime" Precision="0" />
+          <Property Name="DuongVanHao_MaTG" Type="Int32" />
+          <Property Name="DuongVanHao_TrangThai" Type="Boolean" />
+          <NavigationProperty Name="DuongVanHao_TACGIA" Relationship="Self.FK__DuongVanH__Duong__38996AB5" FromRole="DuongVanHao_SACH" ToRole="DuongVanHao_TACGIA" />
+        </EntityType>
+        <EntityType Name="DuongVanHao_TACGIA">
+          <Key>
+            <PropertyRef Name="DuongVanHao_MaTG" />
+          </Key>
+          <Property Name="DuongVanHao_MaTG" Type="Int32" Nullable="false" />
+          <Property Name="DuongVanHao_TenTacGia" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="DuongVanHao_SACH" Relationship="Self.FK__DuongVanH__Duong__38996AB5" FromRole="DuongVanHao_TACGIA" ToRole="DuongVanHao_SACH" />
+        </EntityType>
+        <Association Name="FK__DuongVanH__Duong__38996AB5">
+          <End Role="DuongVanHao_TACGIA" Type="Self.DuongVanHao_TACGIA" Multiplicity="0..1" />
+          <End Role="DuongVanHao_SACH" Type="Self.DuongVanHao_SACH" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DuongVanHao_TACGIA">
+              <PropertyRef Name="DuongVanHao_MaTG" />
+            </Principal>
+            <Dependent Role="DuongVanHao_SACH">
+              <PropertyRef Name="DuongVanHao_MaTG" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DuongVanHao_2210900099Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DuongVanHao_SACH" EntityType="Self.DuongVanHao_SACH" />
+          <EntitySet Name="DuongVanHao_TACGIA" EntityType="Self.DuongVanHao_TACGIA" />
+          <AssociationSet Name="FK__DuongVanH__Duong__38996AB5" Association="Self.FK__DuongVanH__Duong__38996AB5">
+            <End Role="DuongVanHao_TACGIA" EntitySet="DuongVanHao_TACGIA" />
+            <End Role="DuongVanHao_SACH" EntitySet="DuongVanHao_SACH" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DuongVanHao_2210900099ModelStoreContainer" CdmEntityContainer="DuongVanHao_2210900099Entities">
+          <EntitySetMapping Name="DuongVanHao_SACH">
+            <EntityTypeMapping TypeName="DuongVanHao_2210900099Model.DuongVanHao_SACH">
+              <MappingFragment StoreEntitySet="DuongVanHao_SACH">
+                <ScalarProperty Name="DuongVanHao_MaSach" ColumnName="DuongVanHao_MaSach" />
+                <ScalarProperty Name="DuongVanHao_TenSach" ColumnName="DuongVanHao_TenSach" />
+                <ScalarProperty Name="DuongVanHao_SoTrang" ColumnName="DuongVanHao_SoTrang" />
+                <ScalarProperty Name="DuongVanHao_NamXB" ColumnName="DuongVanHao_NamXB" />
+                <ScalarProperty Name="DuongVanHao_MaTG" ColumnName="DuongVanHao_MaTG" />
+                <ScalarProperty Name="DuongVanHao_TrangThai" ColumnName="DuongVanHao_TrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DuongVanHao_TACGIA">
+            <EntityTypeMapping TypeName="DuongVanHao_2210900099Model.DuongVanHao_TACGIA">
+              <MappingFragment StoreEntitySet="DuongVanHao_TACGIA">
+                <ScalarProperty Name="DuongVanHao_MaTG" ColumnName="DuongVanHao_MaTG" />
+                <ScalarProperty Name="DuongVanHao_TenTacGia" ColumnName="DuongVanHao_TenTacGia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

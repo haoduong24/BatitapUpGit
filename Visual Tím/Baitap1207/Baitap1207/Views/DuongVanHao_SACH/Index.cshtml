@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Baitap1207.Models.DuongVanHao_SACH>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DuongVanHao_TenSach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DuongVanHao_SoTrang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DuongVanHao_NamXB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DuongVanHao_TrangThai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DuongVanHao_TACGIA.DuongVanHao_TenTacGia)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DuongVanHao_TenSach)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DuongVanHao_SoTrang)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DuongVanHao_NamXB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DuongVanHao_TrangThai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DuongVanHao_TACGIA.DuongVanHao_TenTacGia)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DuongVanHao_MaSach }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DuongVanHao_MaSach }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DuongVanHao_MaSach })
+        </td>
+    </tr>
+}
+
+</table>

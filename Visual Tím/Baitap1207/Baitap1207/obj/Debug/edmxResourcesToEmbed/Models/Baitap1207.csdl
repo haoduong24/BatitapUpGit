@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DuongVanHao_2210900099Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DuongVanHao_SACH">
+    <Key>
+      <PropertyRef Name="DuongVanHao_MaSach" />
+    </Key>
+    <Property Name="DuongVanHao_MaSach" Type="Int32" Nullable="false" />
+    <Property Name="DuongVanHao_TenSach" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DuongVanHao_SoTrang" Type="Int32" />
+    <Property Name="DuongVanHao_NamXB" Type="DateTime" Precision="0" />
+    <Property Name="DuongVanHao_MaTG" Type="Int32" />
+    <Property Name="DuongVanHao_TrangThai" Type="Boolean" />
+    <NavigationProperty Name="DuongVanHao_TACGIA" Relationship="Self.FK__DuongVanH__Duong__38996AB5" FromRole="DuongVanHao_SACH" ToRole="DuongVanHao_TACGIA" />
+  </EntityType>
+  <EntityType Name="DuongVanHao_TACGIA">
+    <Key>
+      <PropertyRef Name="DuongVanHao_MaTG" />
+    </Key>
+    <Property Name="DuongVanHao_MaTG" Type="Int32" Nullable="false" />
+    <Property Name="DuongVanHao_TenTacGia" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="DuongVanHao_SACH" Relationship="Self.FK__DuongVanH__Duong__38996AB5" FromRole="DuongVanHao_TACGIA" ToRole="DuongVanHao_SACH" />
+  </EntityType>
+  <Association Name="FK__DuongVanH__Duong__38996AB5">
+    <End Role="DuongVanHao_TACGIA" Type="Self.DuongVanHao_TACGIA" Multiplicity="0..1" />
+    <End Role="DuongVanHao_SACH" Type="Self.DuongVanHao_SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DuongVanHao_TACGIA">
+        <PropertyRef Name="DuongVanHao_MaTG" />
+      </Principal>
+      <Dependent Role="DuongVanHao_SACH">
+        <PropertyRef Name="DuongVanHao_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DuongVanHao_2210900099Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DuongVanHao_SACH" EntityType="Self.DuongVanHao_SACH" />
+    <EntitySet Name="DuongVanHao_TACGIA" EntityType="Self.DuongVanHao_TACGIA" />
+    <AssociationSet Name="FK__DuongVanH__Duong__38996AB5" Association="Self.FK__DuongVanH__Duong__38996AB5">
+      <End Role="DuongVanHao_TACGIA" EntitySet="DuongVanHao_TACGIA" />
+      <End Role="DuongVanHao_SACH" EntitySet="DuongVanHao_SACH" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
